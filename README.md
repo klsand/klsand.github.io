@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html> 
 <title>
 	Kerrianne's Practice Website
