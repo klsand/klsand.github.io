@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html> 
 <title>
-	Kerrianne's Practice Website
+Kerrianne's Practice Website
 </title>
 <body>
 	<div class= "page_top">
