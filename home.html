@@ -26,7 +26,7 @@
 <br>
 <br>
 
-<img src= "images/James2.jpg" alt= "Photo Could not be Displayed" height="25%" width="25%">
+<img src= "James2.jpg" alt= "Photo Could not be Displayed" height="25%" width="25%">
 <p> James enjoying toast with cream cheese and banana </p>
 
 <link type ="text/css" rel= "stylesheet" href="style.css"/>
