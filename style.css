@@ -1,0 +1,14 @@
+body {
+background-image: url("images/background.jpg");
+background-size: cover;}
+div.page_top {background-color: green}
+p{font-size: 14pt;}
+p{color: black;}
+table {border:1px solid black;}
+table, td {border:1px solid black;}
+table, th {border:1px solid black;}
+table#codeTable {color:green;}
+footer{
+	background-color: #F9F065;
+	padding: 60px 0px;
+}
