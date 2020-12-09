@@ -15,8 +15,6 @@
 	<a href ="contact.html"> Contact Me </a>
 	</ul>
 </nav>
-<br>
-<br>
 <H2> Hello. I am Kerrianne, a web development student at Phoenix Computer Academy </H2>
 <br>
 <p> I am just learning to code in HTML, CSS and Java.  This is my first website and I am practicing what I am learning in my course.</p>
