@@ -1,14 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Indie+Flower&display=swap');
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Indie Flower', cursive;
+	}
+
+p, figcaption, form, ul, li, dl {
+	font-family: 'IBM Plex Serif', serif;
+}
+
+
 body {
-background-image: url("background.jpg");
-background-size: cover;}
-div.page_top {background-color: green}
-p{font-size: 14pt;}
-p{color: black;}
-table {border:1px solid black;}
-table, td {border:1px solid black;}
-table, th {border:1px solid black;}
-table#codeTable {color:green;}
-footer{
-	background-color: #F9F065;
-	padding: 60px 0px;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+}
+
+p {
+line-height: 1.5em;
+letter-spacing: 0.1em;
+word-spacing: 0.2em;
+}
+
+body {
+	color: rgb(33,39,48);
+	font-size: 18px;
+}
+
+.wrapper {
+	width: 800px;
+	margin: 30px auto;
+}
+
+main {
+	width: 475px;
+	padding: 15px;
+}
+
+aside {
+	width: 275px;
+	float: right;
+	font-size: 14px;
+	line-height: 1.5em;
+	letter-spacing: 0.1em;
+	word-spacing: 0.15em;
+	margin-top: 130px;
+	margin-left: 30px;
+}
+
+h1 {
+	font-size: 40px;
+	text-align: left;
+	margin: 75px;
+}
+
+h2 {
+	font-size: 36px;
+}
+
+h3 {
+	font-size: 32px;
+}
+
+h4 {
+	font-size: 28px;
+}
+
+h5 {
+	font-size: 24px;
+}
+
+h6 {font-size: 20px;
+}
+
+figcaption {
+	font-size: 14px;
+}
+
+.aside {
+	padding: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+ul.aside li:nth-child(even) {
+background: rgba(107, 140, 33, 0.5);
+}
+
+ul.aside li:nth-child(odd) {
+background: rgb(221, 212, 143, 0.5);
+}
+
+.aside li {
+	text-decoration: none;
+	text-align: center;
+	list-style-type: none;
+	font-weight: bold;
+}
+
+#footer {
+	font-family: 'Indie Flower', cursive;
+}
+
+#navbar {
+	margin: 30px;
+	padding: 10px;
+	list-style-type: none;
+	border: 5px solid rgb(74, 115, 55);
+	border-radius: 10px 5px;
+	width:100%;
+	text-align: center;
+	background-color: rgb(74, 115, 55);
+	font-size: 16px;
+	float:left;
+}
+
+#navbar li {
+	font-family: 'Indie Flower', cursive;
+	display: inline;
+	float:left;
+}
+#navbar a{
+	color: rgb(212, 226, 250);
+	padding: 8px 10px;
+	text-decoration: none;
+	font-weight: bold;
+	display: block;
+	width: 150px;
+}
+
+
+#navbar a:hover {
+	border-radius: 20px 5px;
+	background-color: rgb(107, 140, 33);
+}
+table {
+	border:1px solid black;
+}
+
+table, td {
+	border:1px solid black;
+}
+
+table, th {
+	border:1px solid black;
+}
+
+footer {
+	padding: 15px 20px;
+	margin: 20px;
+	width: 100%;
+	height: 45px;
+	background-color: rgb(243, 241, 122);
+	text-align: left;
+}
+
+form {
+	margin-left: 75px;
+}
+
+input {
+	width: 150px;
+	margin: 15px;
+}
+
+text area {
+	width: 250px;
+	margin: 15px;
+}
+
+.form {
+	text-align: left;
+	margin-left: 75px;
+}
+
+.gallery {
+	margin: 50px auto;
 }
