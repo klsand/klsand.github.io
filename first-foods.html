@@ -3,7 +3,16 @@
 	<head>
 		<title> First Foods</title>
 		<link type ="text/css" rel= "stylesheet" href="style.css"/>
-		<script>alert("Please discuss with your baby's doctor if they are ready to start solid foods and baby-led weaning.");</script>
+		<script>
+		var babyAge = prompt("Is your baby 6 months of age or older?", "yes");
+		babyAge = babyAge.toLowerCase();
+		if (babyAge === "yes") {
+		  alert("Your baby might be ready to start solid foods, ask their doctor about baby-led weaning.");
+		}
+		else {
+		  alert("The American Academy of Pediatrics reccomends waiting until baby is at least 6 months of age before introducing solid foods.");
+		}
+		</script>
 	</head>
 	<body>
 		<nav id="navbar">
