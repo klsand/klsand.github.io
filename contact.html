@@ -3,6 +3,15 @@
 	<head>
 		<link type ="text/css" rel= "stylesheet" href="style.css"/>
 		<title>Contact Me</title>
+		<script>
+		  function checkAddress() {
+		    var userInput = document.getElementById('email').value;
+		    var isEmailValid = userInput.indexOf("@")
+		    if (isEmailValid === -1) {
+		      alert("Please enter a valid email address.");
+		    }
+		  }
+		</script>
 	</head>
 	<body>
 		<nav id="navbar">
@@ -15,7 +24,7 @@
 			</ul>
 		</nav>
 		<h1>Contact Me</h1>
-		<form action="index.html">
+		<form action="index.html" onSubmit="checkAddress('email');">
 			<div>
 				<label for= "name">Name:</label>
 				<input type= "text" id="name" name="userName" required>
