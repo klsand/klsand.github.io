@@ -3,14 +3,6 @@
 	<head>
 		<link type ="text/css" rel= "stylesheet" href="style.css"/>
 		<title>Kerrianne's Practice Website</title>
-		<script>
-			function nowPic() {
-			  document.getElementById("pic").src = "james-7.jpg";
-			}
-			function thenPic() {
-			  document.getElementById("pic").src = "james-2.jpg";
-			}
-		</script>
 	</head>
 	<body>
 		<nav id="navbar">
@@ -28,9 +20,15 @@
 		<figure>
 			<img src= "james-2.jpg" id="pic" alt= "James Enjoying Breakfast: Then vs. Now" height="25%" width="25%">
 			<script>
-				var homePic = document.getElementById("pic");
-				homePic.onmouseover = nowPic;
-				homePic.onmouseout = thenPic;
+			  var homePic = document.getElementById("pic");
+			  function nowPic() {
+			    homePic.src = "james-7.jpg";
+			  }
+			  function thenPic() {
+			    homePic.src = "james-2.jpg";
+			  }
+			  homePic.onmouseover = nowPic;
+			  homePic.onmouseout = thenPic;
 			</script>
 			<figcaption>"James Enjoying Breakfast: Then vs. Now"</figcaption>
 		</figure>
